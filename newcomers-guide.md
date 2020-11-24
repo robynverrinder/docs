@@ -71,9 +71,7 @@ If you want others to be able to use the code in your project, you should add a 
 
 #### Submodules
 
-From [the documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
-
-    It often happens that while working on one project, you need to use another project from within it. Perhaps it’s a library that a third party developed or that you’re developing separately and using in multiple parent projects. A common issue arises in these scenarios: you want to be able to treat the two projects as separate yet still be able to use one from within the other.
+From [the documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules): "It often happens that while working on one project, you need to use another project from within it. Perhaps it’s a library that a third party developed or that you’re developing separately and using in multiple parent projects. A common issue arises in these scenarios: you want to be able to treat the two projects as separate yet still be able to use one from within the other."
 
 Or in other words: sometimes you'll need to have a copy of another Git repository downloaded to your computer (for example, a project in the lab requires [BasicLinearAlgebra](https://github.com/tomstewart89/BasicLinearAlgebra) as a dependency). While you can just download or `git clone` it, the "right" way to do things is via [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), which basically mean you can keep treating the your project and the dependency separately, and easily keep track of changes in the dependency
 
