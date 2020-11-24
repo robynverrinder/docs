@@ -126,6 +126,9 @@ Repositories are private by default, which means that only members of the organi
 
 ### Command line interface
 
+<!-- Honestly, I use the interface in vs code so I'm not really the best
+person to write about it. Please improve this by adding your actual workflow -->
+
 1. Launch a terminal/command window and navigate to your project's directory
 
 1. Assuming there's currently no repository, just type
@@ -135,3 +138,37 @@ Repositories are private by default, which means that only members of the organi
    to create one
 
 1. Next, create or modify a file and then save it. Type `git status` to see what happened - it will tell you about new, modified, deleted and untracked files. If the file (which we'll call "myfile.txt") isn't tracked by Git, type `git add myfile.txt`. Finally, you can view the changes by typing `git diff myfile.txt`. If the file was newly created, no output will be shown
+
+1. To stage the changes in the file, type
+   ```bash
+   git add myfile.txt
+   ```
+
+1. To commit the change, type
+   ```bash
+   git commit
+   ```
+   which will open a file editor for you to write a message. Otherwise, type
+   ```bash
+   git commit -m "enter your message here"
+   ```
+   to do it without opening a file editor
+
+1. To synchronize changes to GitHub, type
+   ```bash
+   git push
+   ```
+
+1. If you want to create branches (which is a good idea, but arguably unnecessary for smaller single-person projects when you're still new to Git) type
+   ```bash
+   git branch name-of-new-branch    # create the branch
+   git checkout name-of-new-branch  # switch to it
+
+   # or in one command:
+   git checkout -b name-of-new-branch
+   ```
+   existing branches can be viewed by just typing
+   ```bash
+   git branch
+   ```
+   but I'll leave a more detailed tutorial on that to the links way above
