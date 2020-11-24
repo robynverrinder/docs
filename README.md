@@ -21,4 +21,4 @@ It's super simple to improve docs directly from GitHub:
 
 You don't need to ask for permission
 
-Otherwise, if something is wrong/unclear/whatever but you don't know how to change it, [raise an issue](https://github.com/African-Robotics-Unit/documentation/issues/new)
+Otherwise, if something is wrong/unclear/whatever but you don't know how to change it, [raise an issue](https://github.com/African-Robotics-Unit/docs/issues/new)
