@@ -15,7 +15,10 @@ A guide to using git and GitHub, along with some sample workflows. It's purposef
     - See all the changes made to your project, when the changes were made, and who made them.
     - Include a message with every change explaining the reasoning behind it.
     - Retrieve past versions of the entire project or individual files.
-    - Create branches, where changes can be made experimentally. This feature allows several different sets of changes (for example, features or bug fixes) to be worked on at the same time, possibly by different people, without impacting the master branch. Later, you can merge the changes you want to keep back into master.
+    - Create branches, where changes can be made experimentally. This feature allows several
+      different sets of changes (for example, features or bug fixes) to be worked on at the
+      same time, possibly by different people, without impacting the master branch. Later,
+      you can merge the changes you want to keep back into master.
     - Attach a tag to a version - for example, to mark a new release.
 
 If you're not planning on using Git (perhaps because you're advising/talking to students who use Git) then just know these definitions (taken from [here](https://neros.dev/blog/git-crash-course-part-1/)) before skipping to the next section: [Short intro to GitHub](#short-intro-to-github)
