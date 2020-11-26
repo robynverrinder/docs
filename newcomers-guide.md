@@ -34,7 +34,7 @@ There are many guides to teach you the basics. For example:
 - A to-the-point [20 minute crash course](https://neros.dev/blog/git-crash-course-part-1/)
 - Microsoft's hour-long [Introduction to Git](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/)
 
-Some guides are long, but it's well worth it to just spend an hour going through one of them, since you'll likely use it a lot in your career. Even if you think the basics, please read the rest of this guide. From this point on I'll assume you have Git installed.
+Some guides are long, but it's well worth it to just spend an hour going through one of them, since you'll likely use it a lot in your career. Even if you think you know the basics, please read the rest of this guide. From this point on we'll assume you have Git installed.
 
 
 ### Common files
@@ -46,22 +46,22 @@ Most projects have (or should have) the following files:
 
 The first documentation any user will read about the project. Usually contains short and long descriptions, how to get set up (where/how to install software, IDE configuration, etc), usage examples (code samples and/or pictures and videos of the application). An example file is [here](https://github.com/alknemeyer/optoforce/blob/main/README.md)
 
-There isn't a strict way to do things, but just ask yourself: if I didn't know anything about the codebase and only a little about the project, what documentation would I need to get fully set up?
+There isn't a strict way to do things, so just ask yourself: if I didn't know anything about the codebase and only a little about the project, what documentation would I need to get fully set up? You can test this out by giving a friend access to the project and seeing whether they can quickly and easily get set up without asking you further questions
 
-This file is super important! Please don't forget it! If you work on a project, don't document it properly, and then leave the university, your project will likely never be touched again.
+This file is super important! Please don't forget it! If you work on a project, don't document it properly, and then leave the university, your project will likely never be touched again
 
 
 #### The `.gitignore` file
 
-Not everything in a Git repository should be tracked. A rule of thumb is: "don't track files and folders which are automatically generated"
+Not everything in a Git repository should be tracked. A rule of thumb is: "don't track files and folders which are automatically generated". Another rule of thumb is: if you modify one source file and build/run the project, other files that change as part of that process should not be committed
 
 For example, you generally shouldn't upload:
-- binary generated binary files
+- generated binary files (for example, `.elf` files)
 - debug folders filled with random generated files
 - `__pycache__/` and `.ipynb_checkpoints/` folders (which pop up when using Python and Jupyter Notebooks)
-- log files
+- log files (although important data should be added if the file size isn't too large)
 
-They basically just introduce noise, making meaningful changes hard to track
+Constantly commiting changes to these files introduces noise, making meaningful changes hard to track
 
 
 #### The `LICENSE` file
@@ -79,7 +79,8 @@ A short guide on using Submodules is [here](https://github.com/alknemeyer/typesi
 
 -----
 
-## Short intro to GitHub - TODO
+## Short intro to GitHub
+## TODO!
 
 The official "Getting started with GitHub" guide is [here](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
 
