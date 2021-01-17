@@ -46,13 +46,9 @@ Prof. Vandiver's [introduction to Lagrange with examples](https://ocw.mit.edu/co
 The answers to [this question](https://www.quora.com/What-is-the-comparison-among-Newtonian-Lagrangian-Hamiltonian-and-quantum-mechanics) on Quora are also quite good introductions/recaps of the concepts of Newtonian, Lagrangian and Hamiltonian mechanics.
 
 
-## Computer vision
-[link to that stanford course]
-
-[link to that textbook]
-
-
 ## Kalman Filtering
+[Kalman-and-Bayesian-Filters-in-Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python) is an amazing resource to learn about Kalman Filtering and Bayesian stats in general. It uses Python and a series of Jupyter Notebooks.
+
 [This guide](https://home.wlu.edu/~levys/kalman_tutorial/) builds the intuition of the Kalman Filter from the ground up, assuming very little knowledge from the reader.
 
 [This article](https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/) by the bzarg blog is better as a second resource, which visualizes everything.
