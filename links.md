@@ -14,6 +14,7 @@ Contents:
 - [Computer vision](#computer-vision)
 - [Kalman Filtering](#kalman-filtering)
 - [Modelling and simulation using `SymPy`](#modelling-and-simulation-using-sympy)
+- [Computer Vision](#computer-vision)
 
 Original version from [LiamClarkZA/mechatronics-lab](https://github.com/LiamClarkZA/mechatronics-lab)
 
@@ -56,3 +57,12 @@ The answers to [this question](https://www.quora.com/What-is-the-comparison-amon
 
 ## Modelling and simulation using `SymPy`
 [This tutorial-style talk](https://www.youtube.com/watch?v=r4piIKV4sDw) teaches you "how to derive, simulate, control, and visualize the motion of a multibody dynamic system with Python tools"
+
+## Computer Vision
+[Daniel Cremer's Videos] (https://www.youtube.com/watch?v=RDkwklFGMfo) will give you a good overview of multi-view camera work. 
+
+[CVonline] (http://homepages.inf.ed.ac.uk/rbf/CVonline/) is good for finding links for specific topics
+
+[Hartley & Zisserman] (https://www.cambridge.org/core/books/multiple-view-geometry-in-computer-vision/0B6F289C78B2B23F596CAA76D3D43F7A) is an excellent (though math heavy) textbook.
+
+[OpenCV documentation] (https://docs.opencv.org/3.4/dc/dbb/tutorial_py_calibration.html) is also quite informative with nice diagrams to explain how the code works
