@@ -15,9 +15,15 @@ Contents:
 - [Kalman Filtering](#kalman-filtering)
 - [Modelling and simulation using `SymPy`](#modelling-and-simulation-using-sympy)
 - [Computer Vision](#computer-vision)
+- [Lab Databases](#lab-databases)
 
 Original version from [LiamClarkZA/mechatronics-lab](https://github.com/LiamClarkZA/mechatronics-lab)
 
+## Lab Databases
+The Lab has online resources. Some of these are resources based on an online server. These can be found by loging into the UCT VPN. Following that, 
+go to [Mechatronics-Nas](https://mechatronics-nas.uct.ac.za). The username is 'amir' and the password is 'workonly'.
+You can also find UCT's licensed software at this [website](http://mecnas.uct.ac.za/software/). You will need to be on the UCT VPN to access the site. 
+You can find and install the VPN through [ICTS](http://www.icts.uct.ac.za/VPN).
 
 ## Trajectory optimization
 Stacey has written [a series of tutorials](https://github.com/UCTMechatronics/pyomo_tutorials) on trajectory optimisation using PyOmo, a Python library
