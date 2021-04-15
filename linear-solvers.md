@@ -65,9 +65,9 @@ Assuming there weren't any errors, let's create a simple Python test environment
 
 ```bash
 # Create a simple test environment
-conda create --name test-ipopt python=3.9
-conda activate test-ipopt
-conda install -c conda-forge pyomo
+$ conda create --name test-ipopt python=3.9
+$ conda activate test-ipopt
+$ conda install -c conda-forge pyomo
 ```
 
 I also installed IPython (`conda install ipython`) because it's a nicer REPL than the default. Launch Python (either using `python` or `ipython`) and run a [test problem](https://pyomo.readthedocs.io/en/stable/pyomo_overview/simple_examples.html):
