@@ -7,6 +7,13 @@
 - [HSL for IPOPT](https://www.hsl.rl.ac.uk/ipopt/), which supplies `coinhsl`
 - [HSL_MA86](https://www.hsl.rl.ac.uk/catalogue/hsl_ma86.html) (note that you likely don't want to download this directly)
 
+As mentioned in the Ipopt documentation,
+
+> Ipopt also requires at least one linear solver for sparse symmetric indefinite matrices. There are different possibilities, see below. **It is important to keep in mind that usually the largest fraction of computation time in the optimizer is spent for solving the linear system, and that your choice of the linear solver impacts Ipopt's speed and robustness. It might be worthwhile to try different linear solver to experiment with what is best for your application.**
+
+The HSL solvers are _much_ faster than the default "mumps" solver for most types of problems. In particular, MA86 does very well for large problems.
+
+
 ### Compiling and installing on Ubuntu (tested), maybe Mac (untested)
 
 In the following guide, lines that start with `$` are terminal/bash commands, `#` indicates a comment and everything else is output. Showing all output is a bit much, so dots (`...`) indicate unimportant output which has been removed.
@@ -86,7 +93,7 @@ from pyomo.opt import SolverFactory
 opt = SolverFactory('ipopt', executable='build/bin/ipopt')
 opt.solve(create_new_model())
 
-# and then solve it again with MA86:
+# and then solve it again with HSL MA86:
 opt.options['linear_solver'] = 'ma86'
 opt.options['OF_ma86_scaling'] = 'none'  # a random parameter
 opt.solve(create_new_model(), tee=True)
@@ -104,3 +111,26 @@ $ conda env remove --name test-ipopt
 
 ### Compiling and installing on Windows
 TODO: apparently there's a PDF which describes this well. Could someone please link to it here?
+
+
+### Tips
+
+- MA86 runs much faster on large problems when configured to use multiple threads. Do this by setting the `OMP_NUM_THREADS` environment variable to whatever you want, before launching Python. For example, you might use `OMP_NUM_THREADS=8` to use 8 threads.
+
+  If you don't know how to do that:
+  - [Link for Windows users](https://www.techjunkie.com/environment-variables-windows-10)
+  - Linux: just using `export OMP_NUM_THREADS=8` may not work, because of the way Pyomo summons Ipopt. Instead, you may have to set the variable for all users by putting it in a file like,
+  ```
+  sudo nano /etc/profile.d/set-omp-num-threads.sh
+  ```
+
+- If you want to configure a setting in Ipopt that Pyomo doesn't accept/know about, prefix it with `'OF_'`. See the following tip for an example.
+
+- Ipopt can be configured to use a less accurate but much faster method to compute the Hessian of your optimisation problem. This is done using the `hessian_approximation` option. Test it using:
+  ```python
+  opt = SolverFactory(...)
+  opt.options['OF_hessian_approximation'] = 'limited-memory'
+  ```
+  You may need a few more iterations, but they should be much faster.
+
+More tips are implemented/described in [this function](https://github.com/alknemeyer/physical_education/blob/328724c5f8b0bc08351c99539d9320116fa4a822/physical_education/utils.py#L428). It could be worth just copying those descriptions here.
