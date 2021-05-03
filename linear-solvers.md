@@ -14,11 +14,11 @@ As mentioned in the Ipopt documentation,
 The HSL solvers are _much_ faster than the default "mumps" solver for most types of problems. In particular, MA86 does very well for large problems.
 
 
-### Compiling and installing on Ubuntu (tested), maybe Mac (untested)
+### Compiling and installing on Ubuntu and macOS
 
 In the following guide, lines that start with `$` are terminal/bash commands, `#` indicates a comment and everything else is output. Showing all output is a bit much, so dots (`...`) indicate unimportant output which has been removed.
 
-First, download system packages (compilers, ...) as mentioned in the [official installation instructions](https://coin-or.github.io/Ipopt/INSTALL.html). On Linux that's one big `sudo apt install ...` command.
+First, download system packages (compilers, ...) as mentioned in the [official installation instructions](https://coin-or.github.io/Ipopt/INSTALL.html). On Linux that's one big `sudo apt install ...` command. macOS does not come with a package manager, however, [Homebrew](https://brew.sh/#install) does a great job filling this void. Installing packages is then simply `brew install ...`.
 
 Start in an empty folder, and copy your `coinhsl-YYYY.MM.DD.tar.gz` file there. For me, that's:
 
@@ -66,6 +66,18 @@ be found, you may need to
   - add 'export LD_LIBRARY_PATH=/home/alex/Projects/aru-docs/tmp/coinbrew-install/./build/lib' to your ~/.bashrc (Linux)
   - add 'export DYLD_LIBRARY_PATH=/home/alex/Projects/aru-docs/tmp/coinbrew-install/./build/lib' to ~/.bashrc (OS X)
 # For what it's worth, I didn't need to export those library paths
+```
+
+Apple has explicitly disabled OpenMP support in compilers that they ship with Xcode so you might get the following error message when trying to build on macOS:
+
+```
+clang: error: unsupported option '-fopenmp'
+```
+
+The solution is to tell coinbrew to instead use GCC from Homebrew rather than the default clang compiler for compiling the C and C++ code.
+
+```
+$ ./coinbrew build Ipopt --prefix=build CC=gcc-10 CXX=g++-10 --test --no-prompt --verbosity=3
 ```
 
 Assuming there weren't any errors, let's create a simple Python test environment:
