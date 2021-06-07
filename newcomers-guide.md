@@ -64,6 +64,8 @@ For example, you generally shouldn't upload:
 
 Constantly commiting changes to these files introduces noise, making meaningful changes hard to track
 
+[gitignore.io](https://gitignore.io/) is a really useful tool which allows you to select which software tools you're using for your project, and will auto-generate a .gitignore file for you.
+
 
 #### The `LICENSE` file
 
