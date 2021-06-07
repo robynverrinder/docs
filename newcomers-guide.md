@@ -41,11 +41,15 @@ Most projects have (or should have) the following files:
 
 #### The `README.md` file
 
-The first documentation any user will read about the project. Usually contains short and long descriptions, how to get set up (where/how to install software, IDE configuration, etc), usage examples (code samples and/or pictures and videos of the application). An example file is [here](https://github.com/alknemeyer/optoforce/blob/main/README.md)
+The first documentation any user will read about the project. Usually contains short and long descriptions, how to get set up (where/how to install software, IDE configuration, etc), usage examples (code samples and/or pictures and videos of the application). 
 
-There isn't a strict way to do things, so just ask yourself: if I didn't know anything about the codebase and only a little about the project, what documentation would I need to get fully set up? You can test this out by giving a friend access to the project and seeing whether they can quickly and easily get set up without asking you further questions
+- [The Github readme docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-readmes#auto-generated-table-of-contents-for-readme-files)
+- [A guide to using markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - the format which a readme is written in. 
+- [An example readme file](https://github.com/alknemeyer/optoforce/blob/main/README.md)
 
-This file is super important! Please don't forget it! If you work on a project, don't document it properly, and then leave the university, your project will likely never be touched again
+There isn't a strict way to do things, so just ask yourself: if I didn't know anything about the codebase and only a little about the project, what documentation would I need to get fully set up? You can test this out by giving a friend access to the project and seeing whether they can quickly and easily get set up without asking you further questions.
+
+*This file is super important! Please don't forget it! If you work on a project, don't document it properly, and then leave the university, your project will likely never be touched again.* 
 
 
 #### The `.gitignore` file
