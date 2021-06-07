@@ -110,7 +110,7 @@ Repositories are private by default, which means that only members of the organi
 
 ## Sample work flows
 
-A very simple sample workflow is described below, which should serve as an easy/friendly way to get started with Git. When you're comfortable with this and want to contribute to a project in the "proper" way (which can be different for each repository!) learn about [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) or [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) work flows. (Note: no need to actually install git flow, you can just type out the commands).
+A very simple sample workflow is described below, which should serve as an easy/friendly way to get started with Git. When you're comfortable with this and want to contribute to a project in the "proper" way (which can be different for each repository!) learn about [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) or [gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) work flows. (Note: no need to actually install git flow, you can just type out the commands). A barebones workflow / git cheatsheet can be found [here](https://github.com/African-Robotics-Unit/docs/blob/main/git-cheatsheet.md).
 
 
 ### Visual Studio Code
