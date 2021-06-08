@@ -7,14 +7,14 @@ If you find yourself explaining a particular workflow as part of a project that 
 
 
 ## Projects appropriate for this organisation
-There many different types of code projects, and it doesn't make sense to host all of them on the ARU organisation. A rough guide to our policy is as follows:
+There are many different types of code projects, and it doesn't make sense to manage all of them through the ARU structures. A rough guide to our policy is as follows:
 
-Host on the ARU:
+Managed by the ARU:
 - Libraries: code that has been refactored into a library that gets imported as part of other projects should be kept here. For example, a re-usable Python module which contains general-purpose code for optimisation.
 - Projects relating to hardware: many projects (for example, a [robot leg](https://github.com/African-Robotics-Unit/foot-design-project) or [a sensor](https://github.com/African-Robotics-Unit/sensor-logger)) have software/firmware which relates to an evolving system. Multiple people might be working on this system, either collaborating at the same time or one after another. In cases like this, keep the code/docs/etc here, and keep it in sync with the physical system.
 
-Don't host on the ARU.
-- Your own research experiments: aka "sandbox stuff", should be kept on your own private repositories and managed more or less as you want. It can serve as a nice private place to learn about Git/GitHub/etc without worrying about publicly messing up or having to deal with the admin of pull requests.
+Managed individually
+- Your own research experiments: aka "sandbox stuff", should be kept on your own branches and managed more or less as you want. It can serve as a nice private place to learn about Git/GitHub/etc without worrying about publicly messing up or having to deal with the admin of pull requests.
 - Code for papers: again, rather host code and experiments for papers on your own GitHub account (or wherever else makes sense). These will invariably be abandonded after the paper is done, and you might want to showcase them on your own page for career purposes anyway.
 
 
