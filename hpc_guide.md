@@ -69,7 +69,6 @@ Let's assume you have a python file that you want to run named `python_script.py
 You should see a very similar example script to the one shown below in your home directory already. Let's go through it and talk about what each line means.
 
 ```
-
 #! /bin/sh
 #SBATCH --account eleceng
 #SBATCH --partition=ada
@@ -81,7 +80,6 @@ You should see a very similar example script to the one shown below in your home
 module load software/module1
 
 python3 python_script.py
-
 ```
 
 1.  #! /bin/sh
