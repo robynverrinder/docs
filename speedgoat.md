@@ -1,5 +1,14 @@
 # Speedgoat Guide
 
+## I/O Modules
+
+| Modules | Number | Additional information |
+| ------- |:------:| :--------------------- |
+| IO291   | 1      | High-side only |
+| IO691   | 2      | |
+| IO393   | 3      | FPGA 50k |
+
+
 ## Upgrading Matlab Release
 **NB**: This assumes the Speedgoat is already working with a previous release of Matlab on the PC
 1. Install the latest release of Matlab from [here](https://www.mathworks.com/downloads)
