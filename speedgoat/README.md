@@ -14,7 +14,7 @@
 <img src="https://github.com/African-Robotics-Unit/docs/blob/main/speedgoat/IO291%20pinout.jpg" height="300">
 
 ## IO393 Pinout
-<img src="https://github.com/African-Robotics-Unit/docs/blob/main/speedgoat/IO393%20pinout.png" height="300">
+<img src="https://github.com/African-Robotics-Unit/docs/blob/main/speedgoat/IO393%20pinout.jpg" height="300">
 
 ## Connections
 Please keep this updated
