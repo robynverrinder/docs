@@ -10,6 +10,11 @@
 | [IO691](https://www.speedgoat.com/desktopmodules/2sxc/api/app/SpeedgoatExtranet/api/Downloads/DownloadFile?FolderName=kGF-WHiuh02W5eIwotlAOQ&fileName=IO691%20-%20Hardware%20Reference%20Manual%20v1.2.pdf)   | 2      | CAN communication | |
 | [IO393](https://www.speedgoat.com/desktopmodules/2sxc/api/app/SpeedgoatExtranet/api/Downloads/DownloadFile?FolderName=m0aIEr5K8UykTjg1EilzXA&fileName=IO393%20OEM%20Manual.pdf)   | 3      | Serial (RS485), GPIO (RS485), Interrupt, Encoders | FPGA 50k |
 
+## IO291 Pinout
+<img src="https://github.com/African-Robotics-Unit/docs/blob/main/speedgoat/IO291%20pinout.jpg" height="300">
+
+## IO393 Pinout
+<img src="https://github.com/African-Robotics-Unit/docs/blob/main/speedgoat/IO393%20pinout.png" height="300">
 
 ## Connections
 Please keep this updated
