@@ -72,6 +72,8 @@ The answers to [this question](https://www.quora.com/What-is-the-comparison-amon
 ## <a name="computer-vision"/> Computer Vision
 [Daniel Cremer's Videos](https://www.youtube.com/watch?v=RDkwklFGMfo) will give you a good overview of multi-view camera work. 
 
+[First Principals of Computer Vision](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) YouTube channel is a good resource for explaining concepts visually and also goes into the math.
+
 [CVonline](http://homepages.inf.ed.ac.uk/rbf/CVonline/) is good for finding links for specific topics
 
 [Hartley & Zisserman](https://www.cambridge.org/core/books/multiple-view-geometry-in-computer-vision/0B6F289C78B2B23F596CAA76D3D43F7A) is an excellent (though math heavy) textbook.
