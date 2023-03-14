@@ -19,8 +19,9 @@ Managed individually
 
 
 ## List of links
-If you're looking for a resource for a particular subject, check out the [list of links](links.md)
+If you're looking for a resource for learning in a particular robotics related subject, check out the [list of learning links.](learning_links.md)
 
+If you're looking for a contact within EBE or a company in Cape Town to help you procure something or provide a service, checkout the [list of contacts and companies.](contacts&companies.md)
 
 ## Please contribute
 It's super simple to improve docs directly from GitHub:
