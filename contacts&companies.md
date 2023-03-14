@@ -3,9 +3,9 @@
 This page is a list of all contacts and companies that we use and trust in the lab.
 
 Contents:
--Go-To People in EBE(#in_EBE)
--Local Companies(#Local)
--Online Companies(#Online)
+- [Go-To People in EBE](#in_EBE)
+- [Local Companies](#Local)
+- [Online Companies](#Online)
 
 # Go-To People in EBE <a name="in_EBE"/>
 ## Brendon in White Lab
