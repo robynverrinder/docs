@@ -11,20 +11,20 @@ Contents:
 ### Brendon in White Lab
 For all of your wiring needs.
 
-## Pierre on 4th Floor Menzies
+### Pierre on 4th Floor Menzies
 He is the IT guy. If you need a new Ubuntu PC in the lab or a longer Ethernet cable made-up, try asking Pierre.
 
 # Local Companies <a name="Local"/>
-## AMT Composits
+### AMT Composits
 AMT Composits do resin and silicone sealing of PCB or boxes for electrical waterproofing, if you are working near or under water. They are very knowledgable, so if your application is very specific, go in and talk to them about what you need.
 
-## Communica
+### Communica
 They sell all things to do with communications and IT, cables and connectors.
 
 # Trusted Online Companies <a name="Online"/>
-## Modular Assembly Technology
+### Modular Assembly Technology
 https://moduasm.co.za/ 
 We use this company for sensor rig construction. They have structures that are good for research as they are versatile for building the rig you need. They are based in PE but delivery to Cape Town is quick, only a few days. 
 
-## RS Components 
+### RS Components 
 (duh) For a lot of your electrical component needs.
