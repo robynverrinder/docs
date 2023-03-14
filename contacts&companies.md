@@ -8,7 +8,7 @@ Contents:
 - [Online Companies](#Online)
 
 # Go-To People in EBE <a name="in_EBE"/>
-## Brendon in White Lab
+### Brendon in White Lab
 For all of your wiring needs.
 
 ## Pierre on 4th Floor Menzies
