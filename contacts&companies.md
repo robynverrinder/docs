@@ -36,6 +36,15 @@ Sheet metal laser cutting and bending. Lead time about 5 days, but often faster.
 ### [Topfast](https://topfast.co.za)
 Pretty much every screw, nut, bolt, fastener you could ever imagine. They're in Paarden Eiland.
 
+### [Coastal seals](https://www.coastalseals.co.za)
+O-ring supplier, full range of sizes and materials
+
+### [Gartech Engineering Plastics] (http://www.gartech.co.za)
+Supplier of a wide range of plastics in many different form factors. Offer limited in house machining.
+
+### [Cape Town Rubber] (http://www.ctrubber.co.za)
+A wide range of rubber products from sheets to hosing.
+
 # Trusted Online Companies <a name="Online"/>
 ### [Modular Assembly Technology](https://moduasm.co.za/)
 We use this company for sensor rig construction. They have structures that are good for research as they are versatile for building the rig you need. They are based in PE but delivery to Cape Town is quick, only a few days. 
@@ -44,7 +53,7 @@ We use this company for sensor rig construction. They have structures that are g
 (duh) For a lot of your electrical component needs.
 
 ### [DigiKey](https://www.digikey.co.za/en)
-Another one for electrical components and robotics electronics/hardware. Top Tip: always select the "in-stock" filter when searching.
+Another one for electrical components and robotics electronics/hardware. Top Tip: always select the "in-stock" filter when searching. Additional tip, use Justin Pead's ordering system to take advantage of bulk ordering to save on international shipping.
 
 ### [Micro Robotics](https://www.robotics.org.za)
 A range of robotics electronics and hardware. They are out in Stellenbosch, but shipping is fast.
