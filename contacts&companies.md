@@ -43,5 +43,11 @@ We use this company for sensor rig construction. They have structures that are g
 ### [RS Components](https://za.rs-online.com)
 (duh) For a lot of your electrical component needs.
 
+### [DigiKey](https://www.digikey.co.za/en)
+Another one for electrical components and robotics electronics/hardware. Top Tip: always select the "in-stock" filter when searching.
+
 ### [Micro Robotics](https://www.robotics.org.za)
 A range of robotics electronics and hardware. They are out in Stellenbosch, but shipping is fast.
+
+### [Takealot](https://www.takealot.com/)
+Don't underestimate Takealot for hardware/electronics/odd bits-and-bobs. Fast and reliable shipping.
