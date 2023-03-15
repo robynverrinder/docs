@@ -15,26 +15,26 @@ For all of your wiring needs.
 He is the IT guy. If you need a new Ubuntu PC in the lab or a longer Ethernet cable made-up, try asking Pierre.
 
 ### [Pierre Smith](https://ebe.uct.ac.za/department-mechanical-engineering/contacts/pierre-smith)
-- He is the Mech Eng machine shop manager. You can find him in the Mech Eng workshop. He can help with getting parts machined, but you'll need a drawing. You can also email him for a quote, but better to go see and chat to him first to get a rough idea.
+He is the Mech Eng machine shop manager. You can find him in the Mech Eng workshop. He can help with getting parts machined, but you'll need a drawing. You can also email him for a quote, but better to go see and chat to him first to get a rough idea.
 
 # Local Companies <a name="Local"/>
 ### [AMT Composits](https://www.amtcomposites.co.za)
-AMT Composits do resin and silicone sealing of PCB or boxes for electrical waterproofing, if you are working near or under water. They are very knowledgable, so if your application is very specific, go in and talk to them about what you need.
+AMT Composits do resin and silicone sealing of PCB or boxes for electrical waterproofing, if you are working near or under water. They are very knowledgable, so if your application is very specific, go in and talk to them about what you need. They're in Salt River.
 
 ### [Communica](https://www.communica.co.za)
 They sell all things to do with communications and IT, cables and connectors. They're in Paarden Eiland.
 
 ### [Mantech](https://www.mantech.co.za)
-- All sorts of electrical components. Slightly larger and more niche inventory than communica. They're in Epping.
+All sorts of electrical components. Slightly larger and more niche inventory than Communica. They're in Epping.
 
 ### [Silkuni](http://www.silkuni.co.za)
-- Cheap bearings, bushings, rod ends, linear rails, etc. These are not SKF quality but they are most likely fine for what we do. They're in Maitland.
+Cheap bearings, bushings, rod ends, linear rails, etc. These are not SKF quality but they are most likely fine for what we do. They're in Maitland.
 
 ### [Vulcan Steel](http://www.vulcansteel.co.za)
-- Sheet metal laser cutting and bending. Lead time about 5 days, but often faster. Just call to follow up because sometimes they forget to notify you. They're in Montague Gardens.
+Sheet metal laser cutting and bending. Lead time about 5 days, but often faster. Just call to follow up because sometimes they forget to notify you. They're in Montague Gardens.
 
 ### [Topfast](https://topfast.co.za)
-- Pretty much every screw, nut, bolt, fastener you could ever imagine. They're in Paarden Eiland.
+Pretty much every screw, nut, bolt, fastener you could ever imagine. They're in Paarden Eiland.
 
 # Trusted Online Companies <a name="Online"/>
 ### [Modular Assembly Technology](https://moduasm.co.za/)
@@ -44,4 +44,4 @@ We use this company for sensor rig construction. They have structures that are g
 (duh) For a lot of your electrical component needs.
 
 ### [Micro Robotics](https://www.robotics.org.za)
-- A range of robotics electronics and hardware. They are out in Stellenbosch, but shipping is fast.
+A range of robotics electronics and hardware. They are out in Stellenbosch, but shipping is fast.
